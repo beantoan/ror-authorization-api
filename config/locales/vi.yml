@@ -1,0 +1,21 @@
+vi:
+  crud:
+    create_successfully: "%{class_name} '%{title}' đã được tạo thành công"
+    update_successfully: "%{class_name} '%{title}' đã được cập nhật thành công"
+    save_error: "Lỗi vì không thể lưu %{class_name} '%{title}'. %{reason}"
+
+  role:
+    class_name: 'Nhóm người dùng'
+
+  section:
+    class_name: 'Chức năng'
+
+  user:
+    class_name: 'Tài khoản'
+
+  enums:
+    user:
+      status:
+        not_verified: "Chưa xác nhận"
+        active: "Đã kích hoạt"
+        inactive: "Chưa kích hoạt"
